@@ -41,7 +41,7 @@ module.exports = function (RED) {
     "use strict";
 
     var util = require('util');
-    var nodes7 = require('nodes7');
+    var nodes7 = require('nodes7/legacy');
     var EventEmitter = require('events').EventEmitter;
     var mpiS7;
 
